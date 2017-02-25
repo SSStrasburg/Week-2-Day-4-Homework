@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel='stylesheet'>
+      <title>Widget Co.</title>
+      <link rel='stylesheet' type='text/css' href='style.css'>
+      <meta name='author' content='Steven Strasburg'>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+  </head>
+  <body>
+      <header>
+          <h1 Class='top-of-page'>Widget Co.</h1>
+
+          <nav>
+                <ul class="top-nav">
+                    <li><a href="#intro">Home</a></li>
+                    <li><a href="#team">About Us</a></li>
+                    <li><a href="#widget">Our Widgets</a></li>
+                    <li><a href="#order">Place Order</a></li>
+                </ul>
+          </nav>
+
+
+          <aside class=hamburger>
+          <a class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></a>
+          </aside>
+
+
+      </header>
+
+      <section id='intro' class='intro'>
+          <h2>The Best Widget</h2>
+          <p>We have the best widgets.  They're amazing.  You'll love them.
+
+            <aside>
+              <input type='submit' class='btn btn-primary'></input>
+            </aside>
+
+      </section>
+
+      <section id=team>
+          <h2>Leading Producer of Widgets</h2>
+          <p>There is a lot to write about widgets.</p>
+
+          <h3>Meet the Team</h3>
+
+          <aside class=widget-team-profile-photos>
+              <img src="profile-photo.jpeg" alt="A photo of Steven"></img>
+              <img src="profile-photo.jpeg" alt="A photo of Steven"></img>
+              <img src="profile-photo.jpeg" alt="A photo of Steven"></img>
+              <img src="profile-photo.jpeg" alt="A photo of Steven"></img>
+              <img src="profile-photo.jpeg" alt="A photo of Steven"></img>
+              <img src="profile-photo.jpeg" alt="A photo of Steven"></img>
+          </aside>
+
+
+      <aside class='go-to-top'>
+                      <a href="#top" class="glyphicon glyphicon-menu-up">Go to top</a>
+      </aside>
+
+      </section>
+
+
+      <section id=widget>
+          <h2>Our Widgets</h2>
+          <p>Below are all of our amazing widgets.  You're going to love them.  We have the best widgets.  Be sure to look through all of the widgets and select your favorites.  Then you can order them using the form below.</p>
+
+          <aside class='widget-update'>
+                <p>New widgers being added all the time!</p>
+          </aside>
+
+          <aside class='widget-examples'>
+
+                <i class="glyphicon glyphicon-tower" aria-hidden="true"></i>
+                <i class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></i>
+                <i class="glyphicon glyphicon-compressed" aria-hidden="true"></i>
+                <i class="glyphicon glyphicon-send" aria-hidden="true"></i>
+                <i class="glyphicon glyphicon-flash" aria-hidden="true"></i>
+
+          </aside>
+
+          <aside>
+            <i class="btn-group" role="group" aria-label="number boxes">
+                <button type="button" class="btn btn-default"><<</button>
+                <button type="button" class="btn btn-default">1</button>
+                <button type="button" class="btn btn-default">2</button>
+                <button type="button" class="btn btn-default">3</button>
+                <button type="button" class="btn btn-default">4</button>
+                <button type="button" class="btn btn-default">>></button>
+            </i>
+          </aside>
+
+
+
+
+          <aside class=go-to-top>
+              <a href="#top" class="glyphicon glyphicon-menu-up">Go to top</a>
+          </aside>
+
+      </section>
+
+
+
+
+
+      <section id=order>
+
+        <form action="http://requestb.in/1mbzkrw1">
+
+            <section>
+
+                  <h2> Place Your Order </h2>
+
+                  <h3 class=order-header-theme>Item Details</h3>
+
+
+                  <aside>
+                      <p>Item Type</p>
+                      <select name="widget-type">
+                      <option accesskey="select">Awesome Widget</option>
+                      <option value="green">Wonder Woman</option>
+                      <option value="blue">Captain American</option>
+                      <option value="red">Aqua Man</option>
+                      <option value="purple">The Flash</option>
+                      </select>
+                  </aside>
+
+
+                  <aside>
+                    <p>Quantity</p>
+                    <select name='leveitate-number'>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                    </select>
+                  </aside>
+
+
+
+                      <aside>
+                        <h2>Gift Wrap</h2>
+                          <input type='radio' name='gift-wrap-yn' value='Yes'>
+                          Yes
+                        <label>
+                          <input type='radio' name='gift-wrap-yn' value='No'>
+                          No
+                        </label>
+                      </aside>
+
+                </section>
+
+                  <h3 class=order-header-theme>Your Information</h3>
+
+                      <aside>
+                        <label for='fullname-input'>Full Name</label>
+                        <input type='text' class='full-length-input' name='fullname' id='fullname-input' placeholder="Steven Strasburg">
+                      </aside>
+
+                      <aside>
+                        <label for='fullname-input'>Email</label>
+                        <input type='email' class='full-length-input' name='fullname' id='fullname-input' placeholder="SSStrasburg@gmail.com">
+                      </aside>
+
+                      <aside>
+                        <label for='fullname-input'>Credit Card</label>
+                        <input type='text' class='full-length-input' name='fullname' id='fullname-input' placeholder="XXXX-XXXX-XXXX-XXXX">
+                      </aside>
+
+                      <aside>
+                        <label for='fullname-input'>Expiration Date</label>
+                        <input id="expiry" name="expiry" type="month" required>
+                      </aside>
+
+                      <aside>
+                        <input type='submit' class='btn btn-primary'></input>
+                      </aside>
+
+                      <aside class=go-to-top>
+                                        <a href="#top" class="glyphicon glyphicon-menu-up">Go to top</a>
+                      </aside>
+
+
+
+
+
+          </form>
+
+      </section>
+
+      <footer>
+          <p>&copy; 2017 Steven Strasburg</p>
+      </footer>
+
+  </body>
+</html>

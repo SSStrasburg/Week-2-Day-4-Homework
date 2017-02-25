@@ -1,0 +1,33 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import "header";
+
+.intro {
+  background-image: url(backgroundintro.jpg);
+  background-size: 100% auto;
+}
+
+
+
+
+@import "tabletView";
+
+//
+// @import "desktopView";
+//
+
+
+
+
+//
+// The colors used are:
+// #337ab7 for the nav links, #555555 for the background when hovered, and #ffffff for the hovered links
+// #5cb85c for the "Place Your Order Now" button, #449d44 when hovered
+// #d9edf7 is the background for "Our Widgets"
+// The yellow text in the "Our Widgets" section is a Bootstrap alert
+// The badges on the Widgets use #337ab7 for their background color with #ffffff text
+// The background for the "Place Your Order" section is #ffddcc
+// The fieldset header backgrounds and borders are #337ab7 with #ffffff text
+// The button for the order form matches the "order" button in the top banner area
+// The footer background is #000000 with #ffffff text
+//
