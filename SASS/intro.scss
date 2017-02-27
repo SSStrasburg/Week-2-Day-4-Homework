@@ -1,0 +1,25 @@
+
+
+
+
+h2{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5em;
+  width: 100%;
+}
+
+.intro {
+  background-image: url(backgroundintro.jpg);
+  background-size: 100% auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  aside{
+    margin-bottom: 4em;
+  }
+}

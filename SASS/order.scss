@@ -1,0 +1,92 @@
+
+
+
+
+.order{
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  margin: auto;
+
+        form{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          
+        total-Menu{
+          width: 100%;
+          margin: auto;
+          display: flex;
+          flex:auto;
+        }
+
+        aside{
+          width: 100%;
+          padding-bottom: 1em;
+        }
+
+        h3{
+          background-color: blue;
+          color: white;
+          display: flex;
+          width: 90%;
+          padding: 1em;
+          margin-bottom: 0;
+          margin: auto;
+          justify-content: center;
+          border-radius: 1em 1em 0 0;
+        }
+
+        .menu{
+          border: 1px solid blue;
+          width: 90%;
+          margin: auto;
+          margin-bottom: 2em;
+          flex-direction: column;
+          border-radius: 0 0 1em 1em;
+          background-color: white;
+          padding-left: 1em;
+
+          select{
+              width:90%;
+              border: 1px solid black;
+            }
+
+            .gift-wrap-radio{
+              display: flex;
+              width: 18%;
+
+              p{
+                width: 40%;
+              }
+
+              label{
+                width: 50%;
+                display: flex;
+              }
+            }
+
+            input{
+              border: 1px solid black;
+              display: inherit;
+              width: 90%;
+            }
+
+            }
+
+            .order-form-confirm-button{
+              display: flex;
+              justify-content: center;
+              margin-top: 1em;
+            }
+
+}
+        .go-to-top{
+          display: flex;
+          justify-content: flex-end;
+          height: 2em;
+          width: 93%;
+        }
+}

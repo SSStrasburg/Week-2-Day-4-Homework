@@ -19,9 +19,130 @@ header {
       background-color: #555555;
       list-style: none; }
 
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5em;
+  width: 100%; }
+
 .intro {
   background-image: url(backgroundintro.jpg);
-  background-size: 100% auto; }
+  background-size: 100% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .intro aside {
+    margin-bottom: 4em; }
+
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto; }
+  .team .widget-team-profile-photos {
+    display: inline-block;
+    text-align: center; }
+  .team .go-to-top {
+    display: flex;
+    justify-content: flex-end;
+    height: 2em;
+    width: 93%; }
+
+.widget {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .widget .widget-update {
+    width: 95%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em; }
+  .widget .widget-examples {
+    display: flex;
+    width: 90%;
+    justify-content: center; }
+    .widget .widget-examples .glyphicon {
+      width: 20%;
+      text-align: center; }
+  .widget .go-to-top {
+    display: flex;
+    justify-content: flex-end;
+    height: 2em;
+    width: 93%; }
+
+.order {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  margin: auto; }
+  .order form {
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+    .order form total-Menu {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      flex: auto; }
+    .order form aside {
+      width: 100%;
+      padding-bottom: 1em; }
+    .order form h3 {
+      background-color: blue;
+      color: white;
+      display: flex;
+      width: 90%;
+      padding: 1em;
+      margin-bottom: 0;
+      margin: auto;
+      justify-content: center;
+      border-radius: 1em 1em 0 0; }
+    .order form .menu {
+      border: 1px solid blue;
+      width: 90%;
+      margin: auto;
+      margin-bottom: 2em;
+      flex-direction: column;
+      border-radius: 0 0 1em 1em;
+      background-color: white;
+      padding-left: 1em; }
+      .order form .menu select {
+        width: 90%;
+        border: 1px solid black; }
+      .order form .menu .gift-wrap-radio {
+        display: flex;
+        width: 18%; }
+        .order form .menu .gift-wrap-radio p {
+          width: 40%; }
+        .order form .menu .gift-wrap-radio label {
+          width: 50%;
+          display: flex; }
+      .order form .menu input {
+        border: 1px solid black;
+        display: inherit;
+        width: 90%; }
+    .order form .order-form-confirm-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 1em; }
+  .order .go-to-top {
+    display: flex;
+    justify-content: flex-end;
+    height: 2em;
+    width: 93%; }
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: .5em 0 .5em 1em; }
 
 @media screen and (min-width: 55em) {
   .top-nav {

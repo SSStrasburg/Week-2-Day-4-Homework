@@ -1,16 +1,17 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 @import "header";
-
-.intro {
-  background-image: url(backgroundintro.jpg);
-  background-size: 100% auto;
-}
-
+@import "intro";
+@import "widget";
+@import "order";
+@import "footer";
 
 
 
 @import "tabletView";
+@import "tabletViewOrder";
+
+
 
 //
 // @import "desktopView";

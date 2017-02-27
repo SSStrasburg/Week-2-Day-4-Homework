@@ -1,0 +1,64 @@
+
+
+
+
+.team {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+
+  .widget-team-profile-photos{
+    display: inline-block;
+    text-align: center;
+  }
+
+  .go-to-top{
+    display: flex;
+    justify-content: flex-end;
+    height: 2em;
+    width: 93%;
+  }
+
+}
+
+
+.widget {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+        .widget-update{
+          width: 95%;
+          background-color: yellow;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 1em;
+
+        }
+
+        .widget-examples {
+            display: flex;
+            width: 90%;
+            justify-content: center;
+
+              .glyphicon {
+                width: 20%;
+                text-align: center;
+              }
+        }
+
+        .go-to-top{
+          display: flex;
+          justify-content: flex-end;
+          height: 2em;
+          width: 93%;
+        }
+
+}

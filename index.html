@@ -41,7 +41,7 @@
 
       </section>
 
-      <section id=team>
+      <section id= 'team' class= 'team'>
           <h2>Leading Producer of Widgets</h2>
           <p>There is a lot to write about widgets.</p>
 
@@ -64,7 +64,7 @@
       </section>
 
 
-      <section id=widget>
+      <section id= 'widget' class= 'widget'>
           <h2>Our Widgets</h2>
           <p>Below are all of our amazing widgets.  You're going to love them.  We have the best widgets.  Be sure to look through all of the widgets and select your favorites.  Then you can order them using the form below.</p>
 
@@ -82,7 +82,7 @@
 
           </aside>
 
-          <aside>
+          <aside class= 'button'>
             <i class="btn-group" role="group" aria-label="number boxes">
                 <button type="button" class="btn btn-default"><<</button>
                 <button type="button" class="btn btn-default">1</button>
@@ -106,46 +106,49 @@
 
 
 
-      <section id=order>
+      <section id= 'order' class= 'order'>
 
         <form action="http://requestb.in/1mbzkrw1">
 
-            <section>
-
-                  <h2> Place Your Order </h2>
-
-                  <h3 class=order-header-theme>Item Details</h3>
 
 
-                  <aside>
-                      <p>Item Type</p>
-                      <select name="widget-type">
-                      <option accesskey="select">Awesome Widget</option>
-                      <option value="green">Wonder Woman</option>
-                      <option value="blue">Captain American</option>
-                      <option value="red">Aqua Man</option>
-                      <option value="purple">The Flash</option>
-                      </select>
-                  </aside>
+            <h2> Place Your Order </h2>
 
 
-                  <aside>
-                    <p>Quantity</p>
-                    <select name='leveitate-number'>
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                      <option value="4">4</option>
-                      <option value="5">5</option>
-                      <option value="6">6</option>
-                      <option value="7">7</option>
-                    </select>
-                  </aside>
+            <section class='total-menu'>
+                  <h3 class=order-item-header>Item Details</h3>
 
+                  <section class="menu">
+
+                      <aside>
+                          <p class="item-type-header">Item Type</p>
+                          <select name="widget-type">
+                          <option accesskey="select">Awesome Widget</option>
+                          <option value="green">Wonder Woman</option>
+                          <option value="blue">Captain American</option>
+                          <option value="red">Aqua Man</option>
+                          <option value="purple">The Flash</option>
+                          </select>
+                      </aside>
 
 
                       <aside>
-                        <h2>Gift Wrap</h2>
+                        <p>Quantity</p>
+                        <select name='leveitate-number'>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                        </select>
+                      </aside>
+
+
+
+                      <aside class=gift-wrap-radio>
+                        <p>Gift Wrap?</p>
                           <input type='radio' name='gift-wrap-yn' value='Yes'>
                           Yes
                         <label>
@@ -156,7 +159,14 @@
 
                 </section>
 
-                  <h3 class=order-header-theme>Your Information</h3>
+          <section>
+
+          <section class='total-menu'>
+
+                <h3 class=order-header-theme>Your Information</h3>
+
+                <section class="menu">
+
 
                       <aside>
                         <label for='fullname-input'>Full Name</label>
@@ -178,21 +188,23 @@
                         <input id="expiry" name="expiry" type="month" required>
                       </aside>
 
-                      <aside>
-                        <input type='submit' class='btn btn-primary'></input>
-                      </aside>
 
-                      <aside class=go-to-top>
-                                        <a href="#top" class="glyphicon glyphicon-menu-up">Go to top</a>
-                      </aside>
+                </section>
 
-
-
-
+                <aside class=order-form-confirm-button>
+                  <input type='submit' class='btn btn-primary'></input>
+                </aside>
 
           </form>
 
-      </section>
+          </section>
+              <aside class=go-to-top>
+                                <a href="#top" class="glyphicon glyphicon-menu-up">Go to top</a>
+              </aside>
+
+          </section>
+
+
 
       <footer>
           <p>&copy; 2017 Steven Strasburg</p>
