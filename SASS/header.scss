@@ -17,6 +17,8 @@ header {
         display: flex;
         justify-content: flex-end;
         flex: 40%;
+        opacity: .3;
+        color: white;
 
         li{
         color: #337ab7;
@@ -24,4 +26,4 @@ header {
         list-style: none;
         }
       }
-}
+  }    
